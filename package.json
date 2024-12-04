@@ -1,0 +1,22 @@
+{
+  "name": "valves-app",
+  "version": "0.0.0",
+  "author": "mitryy",
+  "scripts": {
+    "start": "nodemon ./server/app.js"
+  },
+  "nodemonConfig": {
+    "ignore": [
+      "./public/**"
+    ],
+    "delay": "2500"
+  },
+  "dependencies": {
+    "express": "^4.21.1",
+    "mongoose": "^8.8.3",
+    "nodemon": "^3.1.7",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "webpack": "^5.96.1"
+  }
+}
